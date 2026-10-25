@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp">
+
+    <EditText android:id="@+id/etNombre" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Nombre"
+        android:inputType="textCapSentences" />
+    <EditText android:id="@+id/etPrecio" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Precio"
+        android:inputType="numberDecimal" />
+    <EditText android:id="@+id/etStock" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Stock"
+        android:inputType="number" />
+    <EditText android:id="@+id/etMinStock" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Stock mínimo (alerta)"
+        android:inputType="number" />
+    <EditText android:id="@+id/etBarcode" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:hint="Código de barras (manual)"
+        android:inputType="number" />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button android:id="@+id/btnGuardar" android:layout_width="0dp"
+            android:layout_weight="1" android:layout_height="wrap_content" android:text="Guardar" />
+        <Button android:id="@+id/btnLimpiar" android:layout_width="0dp"
+            android:layout_weight="1" android:layout_height="wrap_content" android:text="Limpiar" />
+        <Button android:id="@+id/btnVolver" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:text="Volver al menú" />
+    </LinearLayout>
+
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+        android:text="Toca para editar · mantén presionado para eliminar"
+        android:paddingTop="8dp" />
+    <ListView android:id="@+id/lvProductos" android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

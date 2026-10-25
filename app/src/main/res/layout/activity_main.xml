@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="28dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="🏪"
+            android:textSize="72sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mi Pulpería"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Control de inventario"
+            android:textColor="#E8F5E9"
+            android:textSize="16sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnProductos"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginBottom="16dp"
+            android:text="📦  Productos"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#FB8C00"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/btnMovimientos"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:layout_marginBottom="16dp"
+            android:text="🔄  Movimientos"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#1E88E5"
+            app:cornerRadius="20dp" />
+
+        <Button
+            android:id="@+id/btnResumen"
+            android:layout_width="match_parent"
+            android:layout_height="76dp"
+            android:text="📊  Resumen"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:backgroundTint="#8E24AA"
+            app:cornerRadius="20dp" />
+    </LinearLayout>
+</LinearLayout>

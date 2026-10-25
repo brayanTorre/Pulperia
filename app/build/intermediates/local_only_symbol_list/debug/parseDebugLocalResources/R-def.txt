@@ -1,0 +1,30 @@
+R_DEF: Internal format may change without notice
+local
+id btnGuardar
+id btnLimpiar
+id btnMovimientos
+id btnProductos
+id btnRegistrar
+id btnResumen
+id btnVolver
+id etBarcode
+id etCantidad
+id etMinStock
+id etNombre
+id etPrecio
+id etStock
+id lvBajo
+id lvProductos
+id lvTop
+id rbEntrada
+id rbSalida
+id rgTipo
+id spProducto
+id tvTotal
+layout activity_main
+layout activity_movimientos
+layout activity_productos
+layout activity_resumen
+string app_name
+style Theme.Pulperia
+style Theme.Pulperia.NoActionBar

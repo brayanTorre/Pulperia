@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Pulpería</string>
+    <style name="Theme.Pulperia" parent="Theme.MaterialComponents.DayNight.DarkActionBar"/>
+    <style name="Theme.Pulperia.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar"/>
+</resources>

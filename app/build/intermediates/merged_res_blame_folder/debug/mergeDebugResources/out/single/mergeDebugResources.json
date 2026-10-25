@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "com.tunombre.pulperia.app-debug-31:/layout_activity_main.xml.flat",
+        "source": "com.tunombre.pulperia.app-main-33:/layout/activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.tunombre.pulperia.app-debug-31:\\layout_activity_movimientos.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.tunombre.pulperia.app-main-33:\\layout\\activity_movimientos.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.tunombre.pulperia.app-debug-31:\\layout_activity_productos.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.tunombre.pulperia.app-main-33:\\layout\\activity_productos.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.tunombre.pulperia.app-debug-31:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.tunombre.pulperia.app-main-33:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.tunombre.pulperia.app-debug-31:\\layout_activity_resumen.xml.flat",
+        "source": "C:\\Users\\User\\.gradle\\daemon\\8.7\\com.tunombre.pulperia.app-main-33:\\layout\\activity_resumen.xml"
+    }
+]
